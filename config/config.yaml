@@ -1,0 +1,138 @@
+# Viral Interference Analysis System Configuration
+
+# Data Processing Parameters
+data_processing:
+  # Quality control thresholds
+  min_read_length: 50
+  min_quality_score: 20
+  adapter_trimming: true
+  
+  # Host removal
+  host_genome_path: "data/reference/mosquito_genome.fasta"
+  host_removal_method: "bowtie2"  # or "minimap2"
+  
+  # Viral classification
+  viral_database_path: "data/reference/viral_database.fasta"
+  classification_method: "kraken2"  # or "diamond", "blast"
+  min_contig_length: 200
+  
+  # Abundance quantification
+  normalization_method: "rpm"  # reads per million
+  min_abundance_threshold: 1.0
+
+# Statistical Analysis Parameters
+statistical_analysis:
+  # Presence/absence thresholds
+  presence_threshold_rpm: 1.0
+  presence_threshold_vsirna: true
+  
+  # Statistical tests
+  fisher_test_alpha: 0.05
+  multiple_testing_correction: "fdr_bh"  # Benjamini-Hochberg
+  
+  # Logistic regression
+  regularization: "l2"
+  max_iterations: 1000
+  
+  # Network inference
+  network_method: "spiec_easi"  # or "sparcc"
+  network_threshold: 0.3
+
+# Machine Learning Parameters
+machine_learning:
+  # Model types
+  supervised_models:
+    - "logistic_regression"
+    - "random_forest"
+    - "xgboost"
+  
+  # Cross-validation
+  cv_folds: 5
+  test_size: 0.2
+  random_state: 42
+  
+  # Feature selection
+  feature_selection_method: "mutual_info"
+  max_features: 100
+  
+  # Clustering
+  clustering_method: "umap_hdbscan"
+  umap_n_neighbors: 15
+  umap_min_dist: 0.1
+  hdbscan_min_cluster_size: 5
+  
+  # Explainability
+  shap_sample_size: 1000
+
+# Visualization Parameters
+visualization:
+  # Color schemes
+  color_palette: "viridis"
+  network_color_positive: "#2E8B57"  # Sea green
+  network_color_negative: "#DC143C"  # Crimson
+  
+  # Plot dimensions
+  figure_width: 12
+  figure_height: 8
+  dpi: 300
+  
+  # Heatmap settings
+  heatmap_cluster_rows: true
+  heatmap_cluster_cols: true
+  heatmap_cmap: "RdBu_r"
+
+# Streamlit App Parameters
+streamlit:
+  # App configuration
+  page_title: "Viral Interference Analysis"
+  page_icon: "🦟"
+  layout: "wide"
+  
+  # File upload limits
+  max_file_size_mb: 200
+  allowed_file_types: [".csv", ".tsv", ".parquet", ".xlsx"]
+  
+  # Performance
+  cache_ttl: 3600  # 1 hour
+  max_samples_display: 10000
+
+# Database and Storage
+storage:
+  # Output formats
+  abundance_matrix_format: "parquet"  # or "csv"
+  results_format: "csv"
+  
+  # Compression
+  compression: "gzip"
+  
+  # Backup
+  backup_results: true
+  backup_frequency: "daily"
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  log_file: "logs/viral_analysis.log"
+  max_log_size_mb: 10
+  backup_count: 5
+
+# External Tools (paths to be configured by user)
+external_tools:
+  fastp: "fastp"
+  bowtie2: "bowtie2"
+  kraken2: "kraken2"
+  megahit: "megahit"
+  diamond: "diamond"
+  samtools: "samtools"
+
+# Reference Data URLs (for automatic download)
+reference_data:
+  viral_database_url: "https://ftp.ncbi.nlm.nih.gov/refseq/release/viral/"
+  mosquito_genome_url: "https://vectorbase.org/downloads/"
+  
+# Ethical and Safety Settings
+ethical:
+  require_disclaimer_acceptance: true
+  log_user_actions: true
+  data_retention_days: 90
+  anonymize_results: true

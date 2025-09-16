@@ -1,0 +1,2 @@
+viral_sequence_zika	NC_035889.1	97.333	75	2	0	1	75	108	182	5.66e-29	128	100
+viral_sequence_yellow_fever	NC_001477.1	97.333	75	2	0	1	75	95	169	5.66e-29	128	100

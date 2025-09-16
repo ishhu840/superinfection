@@ -1,0 +1,634 @@
+{
+  "analysis_timestamp": "2025-09-16T17:34:02.561967",
+  "pipeline_version": "Enhanced v2.0 with Reference Genome Integration",
+  "summary": {
+    "total_samples": 57,
+    "samples_with_viruses": 0,
+    "viral_detection_rate": 0.0,
+    "total_viral_hits": 0,
+    "total_raw_hits": 0,
+    "pipeline_improvement_factor": 1.0,
+    "average_host_contamination_rate": 0.0
+  },
+  "species_analysis": {
+    "Culex pipiens": {
+      "samples": 9,
+      "viral_hits": 0,
+      "unique_viruses": 0,
+      "avg_contamination": 0.0,
+      "avg_diversity": 0.0
+    },
+    "Anopheles stephensi": {
+      "samples": 8,
+      "viral_hits": 0,
+      "unique_viruses": 0,
+      "avg_contamination": 0.0,
+      "avg_diversity": 0.0
+    },
+    "Anopheles gambiae": {
+      "samples": 9,
+      "viral_hits": 0,
+      "unique_viruses": 0,
+      "avg_contamination": 0.0,
+      "avg_diversity": 0.0
+    },
+    "Culex quinquefasciatus": {
+      "samples": 8,
+      "viral_hits": 0,
+      "unique_viruses": 0,
+      "avg_contamination": 0.0,
+      "avg_diversity": 0.0
+    },
+    "Aedes aegypti": {
+      "samples": 12,
+      "viral_hits": 0,
+      "unique_viruses": 0,
+      "avg_contamination": 0.0,
+      "avg_diversity": 0.0
+    },
+    "Aedes albopictus": {
+      "samples": 11,
+      "viral_hits": 0,
+      "unique_viruses": 0,
+      "avg_contamination": 0.0,
+      "avg_diversity": 0.0
+    }
+  },
+  "virus_families": {},
+  "reference_genomes_used": [
+    "reference_genomes/Anopheles_gambiae/Anopheles_gambiae_Ifakara_strain.fna",
+    "None"
+  ],
+  "detailed_results": [
+    {
+      "genome_file": "real_mosquito_data/SRR36992089_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594450_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR36992090_Anopheles_stephensi.fasta",
+      "species": "Anopheles stephensi",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169220_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39033199_Culex_quinquefasciatus.fasta",
+      "species": "Culex quinquefasciatus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38629937_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR7153421_Culex_quinquefasciatus.fasta",
+      "species": "Culex quinquefasciatus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38773954_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR7153422_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38629937_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR7153421_Anopheles_stephensi.fasta",
+      "species": "Anopheles stephensi",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169218_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38773954_Anopheles_stephensi.fasta",
+      "species": "Anopheles stephensi",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR9876543_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594449_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39031363_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39031363_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594450_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594447_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38629938_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169217_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39033078_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169218_Anopheles_stephensi.fasta",
+      "species": "Anopheles stephensi",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38629939_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR36992084_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594450_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR36992091_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR8439855_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169219_Culex_quinquefasciatus.fasta",
+      "species": "Culex quinquefasciatus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38629939_Culex_quinquefasciatus.fasta",
+      "species": "Culex quinquefasciatus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594448_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169217_Culex_quinquefasciatus.fasta",
+      "species": "Culex quinquefasciatus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169219_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR36992090_Culex_quinquefasciatus.fasta",
+      "species": "Culex quinquefasciatus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169220_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR7153422_Anopheles_stephensi.fasta",
+      "species": "Anopheles stephensi",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38629939_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR9876543_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38773954_Culex_quinquefasciatus.fasta",
+      "species": "Culex quinquefasciatus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38767354_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169221_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR8439856_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39033078_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594446_Anopheles_stephensi.fasta",
+      "species": "Anopheles stephensi",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR36992073_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39033199_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169219_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39169221_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38767354_Anopheles_stephensi.fasta",
+      "species": "Anopheles stephensi",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39031363_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594447_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38629938_Culex_pipiens.fasta",
+      "species": "Culex pipiens",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR36992091_Anopheles_stephensi.fasta",
+      "species": "Anopheles stephensi",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR39030832_Aedes_albopictus.fasta",
+      "species": "Aedes albopictus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR8439856_Anopheles_gambiae.fasta",
+      "species": "Anopheles gambiae",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR36992084_Aedes_aegypti.fasta",
+      "species": "Aedes aegypti",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    },
+    {
+      "genome_file": "real_mosquito_data/SRR38594449_Culex_quinquefasciatus.fasta",
+      "species": "Culex quinquefasciatus",
+      "viral_hits": 0,
+      "raw_hits": 0,
+      "unique_viruses": 0,
+      "host_contamination_rate": 0,
+      "viral_diversity": 0.0,
+      "improvement_factor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+viral_sequence_eastern_equine_encephalitis	NC_035889.1	94.667	75	4	0	1	75	108	182	1.23e-25	117	100
+viral_sequence_west_nile	NC_001477.1	94.667	75	4	0	1	75	95	169	1.23e-25	117	100

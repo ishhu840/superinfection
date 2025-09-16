@@ -1,0 +1,64 @@
+# macOS
+.DS_Store
+
+# Python cache and venvs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+logs/
+*.tmp
+*.temp
+
+# Streamlit and app caches
+.streamlit/
+
+# Large data/results directories (do not version control)
+viral_analysis_results/
+enhanced_viral_detection/databases/
+reference_genomes/
+research_genomes/
+test_run/
+advanced_test_run/
+
+# Common large bioinformatics file types (ignore anywhere in repo)
+*.fna
+*.fna.gz
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.vcf
+*.vcf.gz
+*.idx
+*.nsq
+*.nin
+*.nhr
+*.ndb
+*.nal
+
+# Misc
+*.bak
+*.swp
+*.swo
+Thumbs.db

@@ -1,0 +1,41 @@
+{
+  "total_samples": 200,
+  "total_viruses": 15,
+  "date_range": "2020-01-01 to 2022-12-24",
+  "countries": [
+    "Colombia",
+    "Australia",
+    "USA",
+    "Thailand",
+    "Singapore",
+    "Vietnam",
+    "Brazil"
+  ],
+  "species": [
+    "Aedes_aegypti",
+    "Aedes_albopictus",
+    "Culex_quinquefasciatus"
+  ],
+  "viral_prevalence": {
+    "Aedes_aegypti_densovirus": 0.47,
+    "Phasi_Charoen_like_virus": 0.34,
+    "Aedes_flavivirus": 0.255,
+    "Aedes_anphevirus": 0.25,
+    "Hubei_mosquito_virus_1": 0.205,
+    "Xinzhou_spider_virus": 0.145,
+    "Menghai_rhabdovirus": 0.135,
+    "Lammi_virus": 0.1,
+    "Culex_Y_virus": 0.085,
+    "Chikungunya_virus": 0.055,
+    "Aedes_alboannulatus_virus": 0.035,
+    "Dengue_virus": 0.025,
+    "Culex_tritaeniorhynchus_rhabdovirus": 0.015,
+    "Zika_virus": 0.01,
+    "Yellow_fever_virus": 0.0
+  },
+  "mean_viral_richness": 2.125,
+  "viral_richness_range": [
+    0,
+    7
+  ]
+}

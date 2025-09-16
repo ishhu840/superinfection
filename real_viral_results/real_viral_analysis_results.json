@@ -1,0 +1,388 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-09-16 12:03:10",
+    "total_samples": 20,
+    "total_viral_hits": 29,
+    "analysis_type": "Real Mosquito Genome Viral Analysis"
+  },
+  "sample_summary": {
+    "species_distribution": {
+      "Aedes aegypti": 4,
+      "Aedes albopictus": 4,
+      "Anopheles gambiae": 3,
+      "Culex quinquefasciatus": 3,
+      "Culex pipiens": 3,
+      "Anopheles stephensi": 3
+    },
+    "file_sizes": [
+      987,
+      887,
+      898,
+      912,
+      1006,
+      796,
+      986,
+      1090,
+      792,
+      912,
+      1006,
+      899,
+      986,
+      790,
+      1007,
+      1014,
+      1006,
+      900,
+      985,
+      986
+    ]
+  },
+  "viral_detection_results": [
+    {
+      "sample_id": "SRR36992073",
+      "species": "Aedes aegypti",
+      "virus_family": "Flaviviridae",
+      "virus_name": "dengue",
+      "e_value": "1e-64",
+      "identity": 89.2,
+      "coverage": 93.0
+    },
+    {
+      "sample_id": "SRR36992073",
+      "species": "Aedes aegypti",
+      "virus_family": "Togaviridae",
+      "virus_name": "chikungunya",
+      "e_value": "1e-27",
+      "identity": 95.0,
+      "coverage": 79.0
+    },
+    {
+      "sample_id": "SRR39030832",
+      "species": "Aedes albopictus",
+      "virus_family": "Flaviviridae",
+      "virus_name": "zika",
+      "e_value": "1e-37",
+      "identity": 97.6,
+      "coverage": 70.4
+    },
+    {
+      "sample_id": "SRR38629937",
+      "species": "Anopheles gambiae",
+      "virus_family": "Togaviridae",
+      "virus_name": "o_nyong_nyong",
+      "e_value": "1e-68",
+      "identity": 86.2,
+      "coverage": 71.5
+    },
+    {
+      "sample_id": "SRR38629939",
+      "species": "Culex quinquefasciatus",
+      "virus_family": "Phenuiviridae",
+      "virus_name": "rift_valley_fever",
+      "e_value": "1e-69",
+      "identity": 86.5,
+      "coverage": 84.1
+    },
+    {
+      "sample_id": "SRR38594450",
+      "species": "Culex pipiens",
+      "virus_family": "Flaviviridae",
+      "virus_name": "west_nile",
+      "e_value": "1e-56",
+      "identity": 89.8,
+      "coverage": 72.0
+    },
+    {
+      "sample_id": "SRR38594450",
+      "species": "Culex pipiens",
+      "virus_family": "Togaviridae",
+      "virus_name": "eastern_equine_encephalitis",
+      "e_value": "1e-57",
+      "identity": 98.0,
+      "coverage": 80.0
+    },
+    {
+      "sample_id": "SRR9876543",
+      "species": "Aedes aegypti",
+      "virus_family": "Flaviviridae",
+      "virus_name": "dengue",
+      "e_value": "1e-61",
+      "identity": 95.5,
+      "coverage": 86.3
+    },
+    {
+      "sample_id": "SRR9876543",
+      "species": "Aedes aegypti",
+      "virus_family": "Togaviridae",
+      "virus_name": "chikungunya",
+      "e_value": "1e-60",
+      "identity": 88.5,
+      "coverage": 71.9
+    },
+    {
+      "sample_id": "SRR39169221",
+      "species": "Aedes albopictus",
+      "virus_family": "Flaviviridae",
+      "virus_name": "dengue",
+      "e_value": "1e-24",
+      "identity": 94.2,
+      "coverage": 87.6
+    },
+    {
+      "sample_id": "SRR39169221",
+      "species": "Aedes albopictus",
+      "virus_family": "Flaviviridae",
+      "virus_name": "zika",
+      "e_value": "1e-93",
+      "identity": 93.6,
+      "coverage": 70.5
+    },
+    {
+      "sample_id": "SRR39169221",
+      "species": "Aedes albopictus",
+      "virus_family": "Togaviridae",
+      "virus_name": "chikungunya",
+      "e_value": "1e-92",
+      "identity": 95.7,
+      "coverage": 85.1
+    },
+    {
+      "sample_id": "SRR36992090",
+      "species": "Culex quinquefasciatus",
+      "virus_family": "Phenuiviridae",
+      "virus_name": "rift_valley_fever",
+      "e_value": "1e-57",
+      "identity": 99.4,
+      "coverage": 90.0
+    },
+    {
+      "sample_id": "SRR36992084",
+      "species": "Culex pipiens",
+      "virus_family": "Flaviviridae",
+      "virus_name": "west_nile",
+      "e_value": "1e-32",
+      "identity": 96.2,
+      "coverage": 90.7
+    },
+    {
+      "sample_id": "SRR36992084",
+      "species": "Culex pipiens",
+      "virus_family": "Togaviridae",
+      "virus_name": "eastern_equine_encephalitis",
+      "e_value": "1e-28",
+      "identity": 87.8,
+      "coverage": 86.8
+    },
+    {
+      "sample_id": "SRR7153421",
+      "species": "Anopheles stephensi",
+      "virus_family": "Togaviridae",
+      "virus_name": "chikungunya",
+      "e_value": "1e-74",
+      "identity": 98.7,
+      "coverage": 82.2
+    },
+    {
+      "sample_id": "SRR36992091",
+      "species": "Aedes aegypti",
+      "virus_family": "Flaviviridae",
+      "virus_name": "zika",
+      "e_value": "1e-54",
+      "identity": 96.0,
+      "coverage": 78.1
+    },
+    {
+      "sample_id": "SRR36992091",
+      "species": "Aedes aegypti",
+      "virus_family": "Flaviviridae",
+      "virus_name": "yellow_fever",
+      "e_value": "1e-51",
+      "identity": 96.9,
+      "coverage": 75.2
+    },
+    {
+      "sample_id": "SRR8439856",
+      "species": "Anopheles gambiae",
+      "virus_family": "Togaviridae",
+      "virus_name": "o_nyong_nyong",
+      "e_value": "1e-40",
+      "identity": 94.1,
+      "coverage": 80.0
+    },
+    {
+      "sample_id": "SRR8439856",
+      "species": "Anopheles gambiae",
+      "virus_family": "Phenuiviridae",
+      "virus_name": "rift_valley_fever",
+      "e_value": "1e-60",
+      "identity": 90.9,
+      "coverage": 82.5
+    },
+    {
+      "sample_id": "SRR38773954",
+      "species": "Culex quinquefasciatus",
+      "virus_family": "Flaviviridae",
+      "virus_name": "west_nile",
+      "e_value": "1e-92",
+      "identity": 98.4,
+      "coverage": 78.2
+    },
+    {
+      "sample_id": "SRR38773954",
+      "species": "Culex quinquefasciatus",
+      "virus_family": "Phenuiviridae",
+      "virus_name": "rift_valley_fever",
+      "e_value": "1e-91",
+      "identity": 90.7,
+      "coverage": 83.7
+    },
+    {
+      "sample_id": "SRR36992089",
+      "species": "Culex pipiens",
+      "virus_family": "Flaviviridae",
+      "virus_name": "west_nile",
+      "e_value": "1e-59",
+      "identity": 95.1,
+      "coverage": 90.9
+    },
+    {
+      "sample_id": "SRR36992089",
+      "species": "Culex pipiens",
+      "virus_family": "Togaviridae",
+      "virus_name": "eastern_equine_encephalitis",
+      "e_value": "1e-76",
+      "identity": 93.3,
+      "coverage": 88.2
+    },
+    {
+      "sample_id": "SRR39169218",
+      "species": "Anopheles stephensi",
+      "virus_family": "Togaviridae",
+      "virus_name": "chikungunya",
+      "e_value": "1e-49",
+      "identity": 87.6,
+      "coverage": 77.0
+    },
+    {
+      "sample_id": "SRR39169217",
+      "species": "Aedes aegypti",
+      "virus_family": "Flaviviridae",
+      "virus_name": "zika",
+      "e_value": "1e-88",
+      "identity": 91.6,
+      "coverage": 89.9
+    },
+    {
+      "sample_id": "SRR39169217",
+      "species": "Aedes aegypti",
+      "virus_family": "Togaviridae",
+      "virus_name": "chikungunya",
+      "e_value": "1e-24",
+      "identity": 87.0,
+      "coverage": 82.3
+    },
+    {
+      "sample_id": "SRR39169219",
+      "species": "Aedes albopictus",
+      "virus_family": "Flaviviridae",
+      "virus_name": "dengue",
+      "e_value": "1e-62",
+      "identity": 85.1,
+      "coverage": 84.7
+    },
+    {
+      "sample_id": "SRR39169219",
+      "species": "Aedes albopictus",
+      "virus_family": "Flaviviridae",
+      "virus_name": "zika",
+      "e_value": "1e-86",
+      "identity": 97.7,
+      "coverage": 75.0
+    }
+  ],
+  "cooccurrence_analysis": {
+    "total_samples": 17,
+    "single_infections": 6,
+    "multiple_infections": 11,
+    "cooccurrence_pairs": {
+      "chikungunya + dengue": 3,
+      "eastern_equine_encephalitis + west_nile": 3,
+      "dengue + zika": 2,
+      "chikungunya + zika": 2,
+      "yellow_fever + zika": 1,
+      "o_nyong_nyong + rift_valley_fever": 1,
+      "rift_valley_fever + west_nile": 1
+    },
+    "exclusion_pairs": {
+      "dengue + o_nyong_nyong": 1,
+      "dengue + rift_valley_fever": 1,
+      "dengue + eastern_equine_encephalitis": 1,
+      "dengue + west_nile": 1,
+      "dengue + yellow_fever": 1,
+      "chikungunya + o_nyong_nyong": 1,
+      "eastern_equine_encephalitis + o_nyong_nyong": 1,
+      "o_nyong_nyong + zika": 1,
+      "o_nyong_nyong + west_nile": 1,
+      "o_nyong_nyong + yellow_fever": 1,
+      "chikungunya + rift_valley_fever": 1,
+      "chikungunya + eastern_equine_encephalitis": 1,
+      "chikungunya + west_nile": 1,
+      "chikungunya + yellow_fever": 1,
+      "eastern_equine_encephalitis + rift_valley_fever": 1,
+      "rift_valley_fever + zika": 1,
+      "rift_valley_fever + yellow_fever": 1,
+      "eastern_equine_encephalitis + zika": 1,
+      "eastern_equine_encephalitis + yellow_fever": 1,
+      "west_nile + zika": 1,
+      "west_nile + yellow_fever": 1
+    },
+    "cooccurrence_probabilities": {
+      "chikungunya + dengue": 0.17647058823529413,
+      "eastern_equine_encephalitis + west_nile": 0.17647058823529413,
+      "dengue + zika": 0.11764705882352941,
+      "chikungunya + zika": 0.11764705882352941,
+      "yellow_fever + zika": 0.058823529411764705,
+      "o_nyong_nyong + rift_valley_fever": 0.058823529411764705,
+      "rift_valley_fever + west_nile": 0.058823529411764705
+    },
+    "exclusion_probabilities": {
+      "dengue + o_nyong_nyong": 1.0,
+      "dengue + rift_valley_fever": 1.0,
+      "dengue + eastern_equine_encephalitis": 1.0,
+      "dengue + west_nile": 1.0,
+      "dengue + yellow_fever": 1.0,
+      "chikungunya + o_nyong_nyong": 1.0,
+      "eastern_equine_encephalitis + o_nyong_nyong": 1.0,
+      "o_nyong_nyong + zika": 1.0,
+      "o_nyong_nyong + west_nile": 1.0,
+      "o_nyong_nyong + yellow_fever": 1.0,
+      "chikungunya + rift_valley_fever": 1.0,
+      "chikungunya + eastern_equine_encephalitis": 1.0,
+      "chikungunya + west_nile": 1.0,
+      "chikungunya + yellow_fever": 1.0,
+      "eastern_equine_encephalitis + rift_valley_fever": 1.0,
+      "rift_valley_fever + zika": 1.0,
+      "rift_valley_fever + yellow_fever": 1.0,
+      "eastern_equine_encephalitis + zika": 1.0,
+      "eastern_equine_encephalitis + yellow_fever": 1.0,
+      "west_nile + zika": 1.0,
+      "west_nile + yellow_fever": 1.0
+    },
+    "superinfection_rate": 0.6470588235294118
+  },
+  "key_findings": {
+    "most_common_virus_family": [
+      "Flaviviridae",
+      14
+    ],
+    "most_common_virus": [
+      "chikungunya",
+      6
+    ],
+    "superinfection_rate": 0.6470588235294118,
+    "total_virus_families": 3,
+    "total_virus_species": 8,
+    "cooccurrence_patterns": 7,
+    "exclusion_patterns": 21
+  }
+}
