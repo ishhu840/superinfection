@@ -432,17 +432,28 @@ st.markdown("""
 def load_data():
     """Load and process all viral analysis data"""
     try:
+        import os
+        from pathlib import Path
+        
+        # Get the current script directory
+        current_dir = Path(__file__).parent
+        results_dir = current_dir / "real_viral_results"
+        
         # Load enhanced analysis (NC codes)
-        with open('/Users/ishtiaq/Desktop/super-virus/real_viral_results/enhanced_viral_analysis_results.json', 'r') as f:
+        enhanced_file = results_dir / "enhanced_viral_analysis_results.json"
+        with open(enhanced_file, 'r') as f:
             enhanced_data = json.load(f)
         
         # Load named virus analysis
-        with open('/Users/ishtiaq/Desktop/super-virus/real_viral_results/real_viral_analysis_results.json', 'r') as f:
+        named_file = results_dir / "real_viral_analysis_results.json"
+        with open(named_file, 'r') as f:
             named_data = json.load(f)
         
         return enhanced_data, named_data
     except Exception as e:
         st.error(f"Error loading data: {e}")
+        st.error(f"Current working directory: {os.getcwd()}")
+        st.error(f"Looking for files in: {results_dir if 'results_dir' in locals() else 'Path not determined'}")
         return None, None
 
 def create_virus_mapping():
