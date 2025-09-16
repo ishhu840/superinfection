@@ -114,7 +114,9 @@ st.markdown("""
 
 def load_analysis_data():
     """Load analysis results for statistics"""
-    results_file = Path("/Users/ishtiaq/Desktop/super-virus/real_viral_results/real_viral_analysis_results.json")
+    # Use relative path from current script location
+    current_dir = Path(__file__).parent
+    results_file = current_dir / "real_viral_results" / "real_viral_analysis_results.json"
     
     if results_file.exists():
         with open(results_file, 'r') as f:
